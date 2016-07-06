@@ -1,0 +1,32 @@
+header
+{
+    background-color: #434343;
+    padding:20px;
+    color:#fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    h1
+    {
+        font-size: 1.3rem;
+        margin:0;
+    }
+    ul
+    {
+        list-style: none;
+        display:flex;
+        a
+        {
+            cursor:pointer;
+            color:#bababa;
+            transition: .25s;
+            font-size: 1.1rem;
+            margin: 0px 5px 0px 5px;
+        }
+        a:hover
+        {
+           color:#fff;  
+          
+        }
+    }
+}

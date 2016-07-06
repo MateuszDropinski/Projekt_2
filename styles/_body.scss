@@ -1,0 +1,20 @@
+body
+{
+    margin:0;
+    padding:0;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 67.5%;
+    @media screen and(min-width:768px)
+    {
+        font-size: 90%;
+    }
+     @media screen and(min-width:1280px)
+    {
+        font-size: 100%;
+    }
+}
